@@ -1,0 +1,37 @@
+{
+    "name": "BLSD20Modbus",
+    "version": "0.1.0",
+    "description": "A lightweight Arduino/PlatformIO library for controlling Smart Motor Devices BLSD-20Modbus brushless motor controllers over Modbus RTU (RS-485).",
+    "keywords": [
+        "modbus",
+        "rs485",
+        "motor",
+        "bldc",
+        "brushless",
+        "teensy",
+        "esp32",
+        "arduino"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brendlij/BLSD20Modbus.git"
+    },
+    "authors": [
+        {
+            "name": "Julian Brendlin",
+            "email": "julian@brendlinonline.de",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "headers": "BLSD20Modbus.h",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "export": {
+        "exclude": [
+            "dev",
+            ".claude",
+            ".github"
+        ]
+    }
+}

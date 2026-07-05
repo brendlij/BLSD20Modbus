@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-examples:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        board: [teensy41, esp32dev, megaatmega2560]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install PlatformIO
+        run: pip install --upgrade platformio
+
+      - name: Compile examples for ${{ matrix.board }}
+        run: |
+          pio ci --lib="." --board=${{ matrix.board }} examples/BasicControl/BasicControl.ino
+          pio ci --lib="." --board=${{ matrix.board }} examples/PositionControl/PositionControl.ino

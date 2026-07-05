@@ -1,0 +1,76 @@
+#######################################
+# Syntax coloring for BLSD20Modbus
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BLSD20Modbus	KEYWORD1
+ModbusRTU	KEYWORD1
+ModbusResult	KEYWORD1
+BLSD20Direction	KEYWORD1
+BLSD20ControlMode	KEYWORD1
+BLSD20RotationMode	KEYWORD1
+BLSD20Status	KEYWORD1
+BLSD20WordOrder	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setTimeout	KEYWORD2
+ping	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+emergencyStop	KEYWORD2
+setSpeed	KEYWORD2
+setDirection	KEYWORD2
+setAcceleration	KEYWORD2
+setDeceleration	KEYWORD2
+moveOffset	KEYWORD2
+moveTo	KEYWORD2
+moveToPreset	KEYWORD2
+setPresetPosition	KEYWORD2
+resetPosition	KEYWORD2
+setControlMode	KEYWORD2
+setRotationMode	KEYWORD2
+setCurrentLimit	KEYWORD2
+setHoldCurrent	KEYWORD2
+setPoleCount	KEYWORD2
+useExternalSpeedInput	KEYWORD2
+invertDirection	KEYWORD2
+invertPositionCount	KEYWORD2
+enableAcceleration	KEYWORD2
+enableDeceleration	KEYWORD2
+enableFourQuadrantRegulation	KEYWORD2
+enableAutoHold	KEYWORD2
+getStatus	KEYWORD2
+isMoving	KEYWORD2
+getSpeed	KEYWORD2
+getCurrent	KEYWORD2
+getPosition	KEYWORD2
+getTemperatureMCU	KEYWORD2
+getTemperatureMosfet	KEYWORD2
+getTemperatureBrake	KEYWORD2
+getErrorFlags	KEYWORD2
+hasError	KEYWORD2
+readInput1	KEYWORD2
+readInput2	KEYWORD2
+readHardStopInput	KEYWORD2
+getTargetSpeed	KEYWORD2
+saveSettings	KEYWORD2
+restart	KEYWORD2
+writeSlaveAddress	KEYWORD2
+setSlaveId	KEYWORD2
+setWordOrder	KEYWORD2
+lastResult	KEYWORD2
+lastResultText	KEYWORD2
+readCoils	KEYWORD2
+readDiscreteInputs	KEYWORD2
+readHoldingRegisters	KEYWORD2
+readInputRegisters	KEYWORD2
+writeCoil	KEYWORD2
+writeHoldingRegister	KEYWORD2
+writeHoldingRegisters	KEYWORD2
